@@ -1,0 +1,10 @@
+controllers\AuthController.class
+models\User.class
+storage\Storage.class
+services\TransactionService.class
+models\Income.class
+services\AuthService.class
+models\Transaction.class
+controllers\TransactionController.class
+app\MainApp.class
+models\Expense.class
