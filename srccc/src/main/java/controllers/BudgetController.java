@@ -16,7 +16,7 @@ public class BudgetController {
         return service.calculateSpent(u);
     }
 
-    
+
     public void check(User u) {
         service.checkBudget(u);
     }
