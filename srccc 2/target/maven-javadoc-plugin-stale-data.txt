@@ -1,0 +1,58 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-classpath
+'/Users/jan/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar:/Users/jan/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21-mac-aarch64.jar:/Users/jan/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar:/Users/jan/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-mac-aarch64.jar:/Users/jan/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar:/Users/jan/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21-mac-aarch64.jar:/Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar:/Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-mac-aarch64.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/Users/jan/Downloads/srccc 2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/jan/Downloads/srccc 2/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'budget_app 1.0 API'
+-use
+-version
+-windowtitle
+'budget_app 1.0 API'
+ui
+app
+models
+storage
+controllers
+services
+/Users/jan/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar = 1695031945000
+/Users/jan/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21-mac-aarch64.jar = 1695031974000
+/Users/jan/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar = 1695032008000
+/Users/jan/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-mac-aarch64.jar = 1695032021000
+/Users/jan/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar = 1695031918000
+/Users/jan/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21-mac-aarch64.jar = 1695031933000
+/Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar = 1695031980000
+/Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-mac-aarch64.jar = 1695031981000
+/Users/jan/Downloads/srccc 2/src/main/java = 1777637428000
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/tag-search-index.js = 1777980346101
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/overview-tree.html = 1777980346090
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/module-search-index.js = 1777980346100
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/index.html = 1777980346092
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/package-search-index.js = 1777980346100
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/index-all.html = 1777980346107
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/allpackages-index.html = 1777980346100
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/member-search-index.js = 1777980346100
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/overview-summary.html = 1777980346108
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/help-doc.html = 1777980346109
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/element-list = 1777980346046
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/search.html = 1777980346107
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/allclasses-index.html = 1777980346099
+/Users/jan/Downloads/srccc 2/target/reports/apidocs/type-search-index.js = 1777980346100
