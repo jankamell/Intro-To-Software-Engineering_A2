@@ -7,4 +7,7 @@ services\AuthService.class
 models\Transaction.class
 controllers\TransactionController.class
 app\MainApp.class
+ui\DashboardView.class
+services\UserService.class
 models\Expense.class
+ui\LoginView.class
