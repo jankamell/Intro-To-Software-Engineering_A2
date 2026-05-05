@@ -14,34 +14,53 @@ public class BudgetView extends BorderPane {
 
         VBox root = UIHelper.root();
 
-        TextField b = new TextField();
-        b.setPromptText("Budget");
+        TextField budgetField = new TextField();
+        budgetField.setPromptText("Enter Budget");
 
         Label out = new Label();
+        out.setTextFill(javafx.scene.paint.Color.BLACK);
 
         BudgetController c = new BudgetController();
 
-        Button set = UIHelper.button("Set Budget");
-        Button back = UIHelper.button("Back");
+        Button setBtn = UIHelper.button("Set Budget");
+        Button backBtn = UIHelper.button("Back");
 
-        set.setOnAction(e -> {
-            double budget = Double.parseDouble(b.getText());
-            c.setBudget(u, budget);
+        setBtn.setOnAction(e -> {
+            try {
+                double budget = Double.parseDouble(budgetField.getText());
 
-            double spent = c.getSpent(u);
+                c.setBudget(u, budget);
 
-            if (spent >= budget)
-                new Alert(Alert.AlertType.WARNING, "Budget exceeded!").show();
+                double spent = c.getSpent(u);
+                double remaining = c.getRemaining(u);
+                double percent = c.getUsagePercentage(u);
 
-            out.setText("Spent: " + spent);
+                String status = c.getStatus(u);
+
+                out.setText(
+                        "Spent: " + spent +
+                                "\nRemaining: " + remaining +
+                                "\nUsage: " + String.format("%.1f", percent) + "%" +
+                                "\n" + status
+                );
+
+            } catch (Exception ex) {
+                out.setText("Invalid input");
+            }
         });
 
-        back.setOnAction(e ->
+        backBtn.setOnAction(e ->
                 s.setScene(new Scene(new DashboardView(s, u), 600, 450))
         );
 
         VBox card = UIHelper.card();
-        card.getChildren().addAll(UIHelper.title("Budget"), b, set, back, out);
+        card.getChildren().addAll(
+                UIHelper.title("Budget Management"),
+                budgetField,
+                setBtn,
+                out,
+                backBtn
+        );
 
         root.getChildren().add(card);
         setCenter(root);

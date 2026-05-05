@@ -17,6 +17,8 @@ public class ReportView extends BorderPane {
         ReportController c = new ReportController();
 
         Label out = new Label(c.getReport(u));
+        out.setTextFill(javafx.scene.paint.Color.BLACK);
+        out.setStyle("-fx-font-size: 14px;");
 
         Button back = UIHelper.button("Back");
 

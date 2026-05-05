@@ -10,14 +10,43 @@ public class ReportService {
         double expense = 0;
 
         for (Transaction t : u.getTransactions()) {
-            if (t instanceof Income) income += t.getAmount();
-            if (t instanceof Expense) expense += t.getAmount();
+            if (t instanceof Income)
+                income += t.getAmount();
+
+            if (t instanceof Expense)
+                expense += t.getAmount();
         }
 
-        return "Income: " + income +
-                "\nExpense: " + expense +
-                "\nBalance: " + (income - expense);
-    }
+        double balance = income - expense;
 
-    public void groupTransactionsByDate(User u) {}
+        double budget = u.getBudget();
+        double spent = expense;
+        double remaining = budget - spent;
+
+        double percent = 0;
+        if (budget > 0) {
+            percent = (spent / budget) * 100;
+        }
+
+        String status;
+        if (percent >= 100) {
+            status = " Budget exceeded!";
+        } else if (percent >= 80) {
+            status = " Near budget!";
+        } else {
+            status = " Budget OK";
+        }
+
+        return "=== REPORT ===" +
+                "\nIncome: " + income +
+                "\nExpense: " + expense +
+                "\nBalance: " + balance +
+
+                "\n\n--- Budget ---" +
+                "\nBudget: " + budget +
+                "\nSpent: " + spent +
+                "\nRemaining: " + remaining +
+                "\nUsage: " + String.format("%.1f", percent) + "%" +
+                "\n" + status;
+    }
 }

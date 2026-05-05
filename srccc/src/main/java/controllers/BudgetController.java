@@ -7,7 +7,6 @@ public class BudgetController {
 
     private BudgetService service = new BudgetService();
 
-
     public void setBudget(User u, double b) {
         service.createBudget(u, b);
     }
@@ -17,7 +16,15 @@ public class BudgetController {
     }
 
 
-    public void check(User u) {
-        service.checkBudget(u);
+    public double getRemaining(User u) {
+        return service.getRemaining(u);
+    }
+
+    public double getUsagePercentage(User u) {
+        return service.getUsagePercentage(u);
+    }
+
+    public String getStatus(User u) {
+        return service.checkBudgetStatus(u);
     }
 }
