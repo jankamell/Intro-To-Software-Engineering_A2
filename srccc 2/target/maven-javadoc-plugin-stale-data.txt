@@ -11,14 +11,22 @@
 -source
 '17'
 -sourcepath
+<<<<<<< HEAD
 '/Users/jan/Downloads/srccc 2/src/main/java'
+=======
+'/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/src/main/java'
+>>>>>>> 705c469 (Restoring project files from srccc 2)
 -author
 -bottom
 'Copyright &#169; 2026. All rights reserved.'
 -charset
 'UTF-8'
 -d
+<<<<<<< HEAD
 '/Users/jan/Downloads/srccc 2/target/reports/apidocs'
+=======
+'/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs'
+>>>>>>> 705c469 (Restoring project files from srccc 2)
 -docencoding
 'UTF-8'
 -doctitle
@@ -41,6 +49,7 @@ services
 /Users/jan/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21-mac-aarch64.jar = 1695031933000
 /Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar = 1695031980000
 /Users/jan/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-mac-aarch64.jar = 1695031981000
+<<<<<<< HEAD
 /Users/jan/Downloads/srccc 2/src/main/java = 1777637428000
 /Users/jan/Downloads/srccc 2/target/reports/apidocs/tag-search-index.js = 1777980346101
 /Users/jan/Downloads/srccc 2/target/reports/apidocs/overview-tree.html = 1777980346090
@@ -56,3 +65,21 @@ services
 /Users/jan/Downloads/srccc 2/target/reports/apidocs/search.html = 1777980346107
 /Users/jan/Downloads/srccc 2/target/reports/apidocs/allclasses-index.html = 1777980346099
 /Users/jan/Downloads/srccc 2/target/reports/apidocs/type-search-index.js = 1777980346100
+=======
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/src/main/java/.DS_Store = 1778065610838
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/src/main/java = 1778065605834
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/tag-search-index.js = 1778065744081
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/overview-tree.html = 1778065744068
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/module-search-index.js = 1778065744080
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/index.html = 1778065744069
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/package-search-index.js = 1778065744081
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/index-all.html = 1778065744088
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/allpackages-index.html = 1778065744080
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/member-search-index.js = 1778065744081
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/overview-summary.html = 1778065744089
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/help-doc.html = 1778065744091
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/element-list = 1778065744024
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/search.html = 1778065744089
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/allclasses-index.html = 1778065744080
+/Users/jan/CS Level 2/2nd semester/Intro_Software_Engineering/Assignment 2/Intro-To-Software-Engineering_A2/srccc 2/target/reports/apidocs/type-search-index.js = 1778065744081
+>>>>>>> 705c469 (Restoring project files from srccc 2)
