@@ -8,285 +8,72 @@ Budget App is a desktop application that helps users manage their personal finan
 
 The project was developed using Java, JavaFX, and the MVC architecture pattern.
 
----
+## Technologies Used
 
-# Technologies Used
+Java 17, JavaFX, Maven, IntelliJ IDEA, JavaDoc
 
-* Java 17
-* JavaFX
-* Maven
-* IntelliJ IDEA
-* JavaDoc
+## Project Structure
 
----
+src folder contains app, controllers, models, services, storage, and ui packages.
 
-# Project Structure
+## Architecture
 
-```plaintext
-src/
- ├── app
- ├── controllers
- ├── models
- ├── services
- ├── storage
- └── ui
-```
+The project follows the MVC architecture.
 
----
+Models contain system data and business entities like User, Transaction, Expense, Income, and Goal.
 
-# Architecture
+Views contain JavaFX screens and user interfaces like LoginView, DashboardView, BudgetView, and ReportView.
 
-The project follows the MVC architecture:
+Controllers connect the UI with services and handle user actions like AuthController, BudgetController, and GoalController.
 
-## Models
+Services contain business logic and calculations like BudgetService, ReportService, and CurrencyService.
 
-Contain system data and business entities.
+## Features
 
-Examples:
+Authentication includes user login, registration, and validation.
 
-* User
-* Transaction
-* Expense
-* Income
-* Goal
+Transaction Management lets you add income and expenses, display transaction history, and categorize transactions.
 
-## Views (UI)
+Budget Management lets you set a budget limit, calculate spending, calculate remaining balance, display usage percentage, and display budget warnings.
 
-Contain JavaFX screens and user interfaces.
+Reports generate financial reports showing total income, total expenses, balance, and budget statistics.
 
-Examples:
+Search lets you find transactions by category.
 
-* LoginView
-* DashboardView
-* BudgetView
-* ReportView
+Goals let you create saving goals, track progress, and update progress.
 
-## Controllers
+Currency Converter converts amounts between currencies and shows original and converted values.
 
-Connect the UI with services and handle user actions.
+## Budget System Improvements
 
-Examples:
+The budget module was enhanced with remaining balance calculation, usage percentage calculation, a dynamic warning system, and budget status analysis. Possible budget states are under control, near budget, and exceeded.
 
-* AuthController
-* BudgetController
-* GoalController
+## Documentation
 
-## Services
+Project documentation was generated using JavaDoc and includes classes, methods, parameters, and package structure. The generated documentation is in the doc folder and the main file is doc/index.html.
 
-Contain business logic and calculations.
+## How to Run
 
-Examples:
+You need Java 17 or later, Maven, JavaFX, and IntelliJ IDEA. Open a terminal in the project folder and run mvn javafx:run.
 
-* BudgetService
-* ReportService
-* CurrencyService
+## Team Responsibilities
 
----
+Member 1 handled authentication and core system with files like MainApp, LoginView, AuthController, AuthService, and User.
 
-# Features
+Member 2 handled transactions and budget with files like TransactionView, TransactionController, TransactionService, BudgetView, BudgetController, and BudgetService.
 
-## 1. Authentication
+Member 3 handled search and reports with files like SearchView, SearchController, SearchService, ReportView, ReportController, and ReportService.
 
-* User login
-* User registration
-* User validation
+Member 4 handled goals, currency, and UI with files like GoalView, GoalController, GoalService, SettingsView, CurrencyService, and UIHelper.
 
-## 2. Transaction Management
+## Coding Style
 
-* Add income
-* Add expense
-* Display transaction history
-* Categorize transactions
+The project follows Java coding conventions including CamelCase naming, proper indentation, separation of concerns, clean MVC structure, and JavaDoc documentation.
 
-## 3. Budget Management
+## Future Improvements
 
-* Set budget limit
-* Calculate spending
-* Calculate remaining balance
-* Display usage percentage
-* Display budget warnings
+Possible future enhancements include database integration, charts and graphs, PDF export, multi-user support, and dark mode.
 
-## 4. Reports
+## Conclusion
 
-* Generate financial reports
-* Display total income
-* Display total expenses
-* Display balance
-* Integrate budget statistics into reports
-
-## 5. Search
-
-* Search transactions by category
-
-## 6. Goals
-
-* Create saving goals
-* Track goal progress
-* Update goal progress
-
-## 7. Currency Converter
-
-* Convert amounts between currencies
-* Show original and converted values
-
----
-
-# Budget System Improvements
-
-The budget module was enhanced with:
-
-* Remaining balance calculation
-* Usage percentage calculation
-* Dynamic warning system
-* Budget status analysis
-
-Possible budget states:
-
-* Budget is under control
-* Warning: Near budget
-* Budget exceeded
-
----
-
-# Documentation
-
-The project documentation was generated using JavaDoc.
-
-Documentation includes:
-
-* Classes
-* Methods
-* Parameters
-* Package structure
-
-Generated documentation folder:
-
-```plaintext
-doc/
-```
-
-Main documentation file:
-
-```plaintext
-doc/index.html
-```
-
----
-
-# How to Run the Project
-
-## Requirements
-
-* Java 17 or later
-* Maven
-* JavaFX
-* IntelliJ IDEA
-
----
-
-## Run Using Maven
-
-Open terminal inside the project folder and run:
-
-```bash
-mvn javafx:run
-```
-
----
-
-# Team Members Responsibilities
-
-## Member 1
-
-Authentication and core system
-
-Files:
-
-* MainApp
-* LoginView
-* AuthController
-* AuthService
-* User
-
----
-
-## Member 2
-
-Transactions and Budget
-
-Files:
-
-* TransactionView
-* TransactionController
-* TransactionService
-* BudgetView
-* BudgetController
-* BudgetService
-
----
-
-## Member 3
-
-Search and Reports
-
-Files:
-
-* SearchView
-* SearchController
-* SearchService
-* ReportView
-* ReportController
-* ReportService
-
----
-
-## Member 4
-
-Goals, Currency, and UI
-
-Files:
-
-* GoalView
-* GoalController
-* GoalService
-* SettingsView
-* CurrencyService
-* UIHelper
-
----
-
-# Coding Style
-
-The project follows Java coding conventions including:
-
-* CamelCase naming
-* Proper indentation
-* Separation of concerns
-* Clean MVC structure
-* JavaDoc documentation
-
----
-
-# Future Improvements
-
-Possible future enhancements:
-
-* Database integration
-* Charts and graphs
-* Export reports to PDF
-* Multi-user support
-* Dark mode
-
----
-
-# Conclusion
-
-This project demonstrates the use of:
-
-* Object-Oriented Programming (OOP)
-* MVC Architecture
-* JavaFX GUI Development
-* Software Engineering Principles
-* JavaDoc Documentation
-
-The application provides a complete and user-friendly finance management experience while maintaining clean and organized code.
+This project demonstrates Object-Oriented Programming, MVC Architecture, JavaFX GUI Development, Software Engineering Principles, and JavaDoc Documentation. The application provides a complete and user-friendly finance management experience while maintaining clean and organized code.
